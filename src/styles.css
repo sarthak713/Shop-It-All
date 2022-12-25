@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: #1f1f1f;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+::-webkit-scrollbar-track {
+    background: rgb(59, 59, 59);
+
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(146, 146, 146);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(32, 32, 32);
+}
+@supports (scrollbar-color: rgb(146, 146, 146) rgb(59, 59, 59)) {
+    * {
+        scrollbar-color: rgb(146, 146, 146) rgb(59, 59, 59);
+        scrollbar-width: thin;
+    }
+}
+
+/* Grid */
+.darkModeGrid {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 20px;
+}
+.lightModeGrid {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #1f1f1f;
+}
+
+/* Body */
+.darkModeBody {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.lightModeBody {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* NavBar */
+.navbar {
+    position: sticky;
+    top: 20px;
+}
+
+/* Grid items */
+.darkGridItem {
+    background-color: #181818;
+    border: 2px solid #a7a7a7;
+}
+.lightGridItem {
+    background-color: #ffffff;
+    border: 2px solid rgb(111, 164, 182);
+}
+
+/* Drawer */
+.darkDrawer {
+    max-height: 50vh;
+    overflow-y: scroll;
+    background: #181818;
+    color: white;
+}
+.lightDrawer {
+    max-height: 50vh;
+    overflow-y: scroll;
+    background: #ffffff;
+    color: #181818;
+}
+
+/* Footer */
+.darkFooter {
+    padding: 10px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+}
+.lightFooter {
+    padding: 10px 0;
+    color: #181818;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100vw;
+}
