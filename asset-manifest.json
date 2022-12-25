@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shop-It-All/static/css/main.62a1403b.css",
+    "main.js": "/Shop-It-All/static/js/main.989d2664.js",
+    "index.html": "/Shop-It-All/index.html",
+    "main.62a1403b.css.map": "/Shop-It-All/static/css/main.62a1403b.css.map",
+    "main.989d2664.js.map": "/Shop-It-All/static/js/main.989d2664.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62a1403b.css",
+    "static/js/main.989d2664.js"
+  ]
+}
