@@ -12,6 +12,8 @@ Has 4 sections: Navbar, Main, Footer, Cart.
 
 **API**: https://fakestoreapi.com/
 
+## Hosted Here: https://sarthak713.github.io/Shop-It-All/
+
 ## Screenshots
 
 ![App Screenshot](https://imgtr.ee/images/2023/06/16/Ya901.jpg)
